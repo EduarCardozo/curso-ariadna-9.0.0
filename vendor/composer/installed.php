@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '5f056445b671e522ead50155477f5e8fff66fbe1',
+        'reference' => '3f5246192d9b6b9e0cac1a40fb91dd4ec8068bbe',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -517,6 +517,15 @@
                 0 => '9.0.0',
             ),
         ),
+        'drupal/csv_serialization' => array(
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/csv_serialization',
+            'aliases' => array(),
+            'reference' => '8.x-2.0',
+            'dev_requirement' => false,
+        ),
         'drupal/ctools' => array(
             'pretty_version' => '3.6.0',
             'version' => '3.6.0.0',
@@ -781,7 +790,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '5f056445b671e522ead50155477f5e8fff66fbe1',
+            'reference' => '3f5246192d9b6b9e0cac1a40fb91dd4ec8068bbe',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
@@ -918,6 +927,15 @@
             'replaced' => array(
                 0 => '9.0.0',
             ),
+        ),
+        'drupal/views_data_export' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/views_data_export',
+            'aliases' => array(),
+            'reference' => '8.x-1.0',
+            'dev_requirement' => false,
         ),
         'drupal/views_ui' => array(
             'dev_requirement' => false,
@@ -1061,6 +1079,15 @@
             'install_path' => __DIR__ . '/../league/container',
             'aliases' => array(),
             'reference' => '8438dc47a0674e3378bcce893a0a04d79a2c22b3',
+            'dev_requirement' => false,
+        ),
+        'league/csv' => array(
+            'pretty_version' => '9.7.1',
+            'version' => '9.7.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../league/csv',
+            'aliases' => array(),
+            'reference' => '0ec57e8264ec92565974ead0d1724cf1026e10c1',
             'dev_requirement' => false,
         ),
         'masterminds/html5' => array(
