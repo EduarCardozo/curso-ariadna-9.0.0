@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '9bfb2059072a4185130a88ab42b1308fc0780bbc',
+        'reference' => '7b9d0804abdcef1368cc4fe996352206be37ad46',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -571,6 +571,15 @@
                 0 => '9.0.0',
             ),
         ),
+        'drupal/entity_reference_revisions' => array(
+            'pretty_version' => '1.9.0',
+            'version' => '1.9.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/entity_reference_revisions',
+            'aliases' => array(),
+            'reference' => '8.x-1.9',
+            'dev_requirement' => false,
+        ),
         'drupal/field' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -760,6 +769,15 @@
                 0 => '9.0.0',
             ),
         ),
+        'drupal/paragraphs' => array(
+            'pretty_version' => '1.12.0',
+            'version' => '1.12.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/paragraphs',
+            'aliases' => array(),
+            'reference' => '8.x-1.12',
+            'dev_requirement' => false,
+        ),
         'drupal/path' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -790,7 +808,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '9bfb2059072a4185130a88ab42b1308fc0780bbc',
+            'reference' => '7b9d0804abdcef1368cc4fe996352206be37ad46',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
