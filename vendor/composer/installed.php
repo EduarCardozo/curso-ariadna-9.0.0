@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'cb934d9c5a504d923e03746a6279bb5b0f3c97f5',
+        'reference' => 'bc7c3a70706e31fa56ef3aa802509c24c28d90ac',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -309,6 +309,15 @@
             'replaced' => array(
                 0 => '9.0.0',
             ),
+        ),
+        'drupal/bigint' => array(
+            'pretty_version' => '1.1.0',
+            'version' => '1.1.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/bigint',
+            'aliases' => array(),
+            'reference' => '8.x-1.1',
+            'dev_requirement' => false,
         ),
         'drupal/block' => array(
             'dev_requirement' => false,
@@ -898,7 +907,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'cb934d9c5a504d923e03746a6279bb5b0f3c97f5',
+            'reference' => 'bc7c3a70706e31fa56ef3aa802509c24c28d90ac',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
