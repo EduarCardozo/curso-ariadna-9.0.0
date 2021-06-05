@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '3f5246192d9b6b9e0cac1a40fb91dd4ec8068bbe',
+        'reference' => '67db114b4ab350909c911acb57284599d3c653c7',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -790,7 +790,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '3f5246192d9b6b9e0cac1a40fb91dd4ec8068bbe',
+            'reference' => '67db114b4ab350909c911acb57284599d3c653c7',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
@@ -942,6 +942,15 @@
             'replaced' => array(
                 0 => '9.0.0',
             ),
+        ),
+        'drupal/we_megamenu' => array(
+            'pretty_version' => '1.11.0',
+            'version' => '1.11.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/we_megamenu',
+            'aliases' => array(),
+            'reference' => '8.x-1.11',
+            'dev_requirement' => false,
         ),
         'drupal/workflows' => array(
             'dev_requirement' => false,
