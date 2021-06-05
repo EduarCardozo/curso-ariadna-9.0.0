@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '09048676187610aeb989d6a5e16e74a8dc6727fd',
+        'reference' => 'cc3e28159d28c2ecac09ac5a6126541da2e11080',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -616,6 +616,15 @@
             'reference' => '4.1.1',
             'dev_requirement' => false,
         ),
+        'drupal/devel_php' => array(
+            'pretty_version' => '1.3.0',
+            'version' => '1.3.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/devel_php',
+            'aliases' => array(),
+            'reference' => '8.x-1.3',
+            'dev_requirement' => false,
+        ),
         'drupal/dynamic_page_cache' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -871,7 +880,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '09048676187610aeb989d6a5e16e74a8dc6727fd',
+            'reference' => 'cc3e28159d28c2ecac09ac5a6126541da2e11080',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
