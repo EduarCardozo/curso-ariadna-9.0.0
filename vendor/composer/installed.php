@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'cc3e28159d28c2ecac09ac5a6126541da2e11080',
+        'reference' => '358520c886bd503a8f18de49e0f062295030c5c3',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -267,6 +267,15 @@
             'replaced' => array(
                 0 => '9.0.0',
             ),
+        ),
+        'drupal/backup_migrate' => array(
+            'pretty_version' => '5.0.0-rc2',
+            'version' => '5.0.0.0-RC2',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/backup_migrate',
+            'aliases' => array(),
+            'reference' => '5.0.0-rc2',
+            'dev_requirement' => false,
         ),
         'drupal/ban' => array(
             'dev_requirement' => false,
@@ -880,7 +889,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'cc3e28159d28c2ecac09ac5a6126541da2e11080',
+            'reference' => '358520c886bd503a8f18de49e0f062295030c5c3',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
