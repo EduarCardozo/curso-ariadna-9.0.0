@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '06ea50587c47b531a18a883231c7b026608afdc0',
+        'reference' => '5f056445b671e522ead50155477f5e8fff66fbe1',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -517,6 +517,15 @@
                 0 => '9.0.0',
             ),
         ),
+        'drupal/ctools' => array(
+            'pretty_version' => '3.6.0',
+            'version' => '3.6.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/ctools',
+            'aliases' => array(),
+            'reference' => '8.x-3.6',
+            'dev_requirement' => false,
+        ),
         'drupal/datetime' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -685,6 +694,15 @@
                 0 => '9.0.0',
             ),
         ),
+        'drupal/metatag' => array(
+            'pretty_version' => '1.16.0',
+            'version' => '1.16.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/metatag',
+            'aliases' => array(),
+            'reference' => '8.x-1.16',
+            'dev_requirement' => false,
+        ),
         'drupal/migrate' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -763,7 +781,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '06ea50587c47b531a18a883231c7b026608afdc0',
+            'reference' => '5f056445b671e522ead50155477f5e8fff66fbe1',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
@@ -855,6 +873,15 @@
             'replaced' => array(
                 0 => '9.0.0',
             ),
+        ),
+        'drupal/token' => array(
+            'pretty_version' => '1.9.0',
+            'version' => '1.9.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/token',
+            'aliases' => array(),
+            'reference' => '8.x-1.9',
+            'dev_requirement' => false,
         ),
         'drupal/toolbar' => array(
             'dev_requirement' => false,
