@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '3f9d226327040d81706eb759b2c569bf0b386bba',
+        'reference' => 'cb934d9c5a504d923e03746a6279bb5b0f3c97f5',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -254,6 +254,15 @@
             'install_path' => __DIR__ . '/../../web/themes/contrib/adminimal_theme',
             'aliases' => array(),
             'reference' => '8.x-1.6',
+            'dev_requirement' => false,
+        ),
+        'drupal/administerusersbyrole' => array(
+            'pretty_version' => '3.0.0',
+            'version' => '3.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/administerusersbyrole',
+            'aliases' => array(),
+            'reference' => '8.x-3.0',
             'dev_requirement' => false,
         ),
         'drupal/aggregator' => array(
@@ -889,7 +898,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '3f9d226327040d81706eb759b2c569bf0b386bba',
+            'reference' => 'cb934d9c5a504d923e03746a6279bb5b0f3c97f5',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
@@ -903,6 +912,15 @@
             'replaced' => array(
                 0 => '9.0.0',
             ),
+        ),
+        'drupal/role_delegation' => array(
+            'pretty_version' => '1.1.0',
+            'version' => '1.1.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/role_delegation',
+            'aliases' => array(),
+            'reference' => '8.x-1.1',
+            'dev_requirement' => false,
         ),
         'drupal/search' => array(
             'dev_requirement' => false,
