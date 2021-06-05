@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '67db114b4ab350909c911acb57284599d3c653c7',
+        'reference' => '9bfb2059072a4185130a88ab42b1308fc0780bbc',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -790,7 +790,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '67db114b4ab350909c911acb57284599d3c653c7',
+            'reference' => '9bfb2059072a4185130a88ab42b1308fc0780bbc',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
@@ -950,6 +950,15 @@
             'install_path' => __DIR__ . '/../../web/modules/contrib/we_megamenu',
             'aliases' => array(),
             'reference' => '8.x-1.11',
+            'dev_requirement' => false,
+        ),
+        'drupal/webform' => array(
+            'pretty_version' => '6.0.3',
+            'version' => '6.0.3.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/webform',
+            'aliases' => array(),
+            'reference' => '6.0.3',
             'dev_requirement' => false,
         ),
         'drupal/workflows' => array(
