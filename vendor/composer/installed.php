@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '358520c886bd503a8f18de49e0f062295030c5c3',
+        'reference' => '3f9d226327040d81706eb759b2c569bf0b386bba',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -889,7 +889,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '358520c886bd503a8f18de49e0f062295030c5c3',
+            'reference' => '3f9d226327040d81706eb759b2c569bf0b386bba',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
@@ -1008,6 +1008,15 @@
             'replaced' => array(
                 0 => '9.0.0',
             ),
+        ),
+        'drupal/unique_field_ajax' => array(
+            'pretty_version' => '2.0.1',
+            'version' => '2.0.1.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/unique_field_ajax',
+            'aliases' => array(),
+            'reference' => '2.0.1',
+            'dev_requirement' => false,
         ),
         'drupal/update' => array(
             'dev_requirement' => false,
