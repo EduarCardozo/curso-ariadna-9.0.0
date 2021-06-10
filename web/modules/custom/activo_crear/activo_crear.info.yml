@@ -1,0 +1,6 @@
+name: activo_crear
+type: module
+description: Modulo de creacion de activos
+package: Custom
+core: 8.x
+core_version_requirement: ^8 || ^9

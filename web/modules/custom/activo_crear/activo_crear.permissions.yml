@@ -1,0 +1,4 @@
+administer activo_crear configuration:
+  title: 'Administer activo_crear configuration'
+  description: 'Optional description.'
+  restrict access: true

@@ -1,0 +1,124 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the activo_crear module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function activo_crear_install() {
+  \Drupal::messenger()->addStatus(__FUNCTION__);
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function activo_crear_uninstall() {
+  \Drupal::messenger()->addStatus(__FUNCTION__);
+}
+
+/**
+ * Implements hook_schema().
+ */
+function activo_crear_schema() {
+  $schema['activo_crear_example'] = [
+    'description' => 'Table description.',
+    'fields' => [
+      'id' => [
+        'type' => 'serial',
+        'not null' => TRUE,
+        'description' => 'Primary Key: Unique record ID.',
+      ],
+      'uid' => [
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'default' => 0,
+        'description' => 'The {users}.uid of the user who created the record.',
+      ],
+      'id_empresa' => [
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'default' => 0,
+        'description' => 'id de la empresa a la que pertenece el activo.',
+      ],
+      'id_tipo_activo' => [
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'default' => 0,
+        'description' => 'id del tipo de activo al que pertenece el activo.',
+      ],
+      'id_marca_activo' => [
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'default' => 0,
+        'description' => 'id de la marca del activo.',
+      ],
+      'modelo_activo' => [
+        'type' => 'varchar(50)',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'default' => 0,
+        'description' => 'modelo del activo.',
+      ],
+      'status' => [
+        'description' => 'Boolean indicating whether this record is active.',
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'default' => 0,
+        'size' => 'tiny',
+      ],
+      'type' => [
+        'type' => 'varchar_ascii',
+        'length' => 64,
+        'not null' => TRUE,
+        'default' => '',
+        'description' => 'Type of the record.',
+      ],
+      'created' => [
+        'type' => 'int',
+        'not null' => TRUE,
+        'default' => 0,
+        'description' => 'Timestamp when the record was created.',
+      ],
+      'data' => [
+        'type' => 'blob',
+        'not null' => TRUE,
+        'size' => 'big',
+        'description' => 'The arbitrary data for the item.',
+      ],
+    ],
+    'primary key' => ['id'],
+    'indexes' => [
+      'type' => ['type'],
+      'uid' => ['uid'],
+      'status' => ['status'],
+    ],
+  ];
+
+  return $schema;
+}
+
+/**
+ * Implements hook_requirements().
+ */
+function activo_crear_requirements($phase) {
+  $requirements = [];
+
+  if ($phase == 'runtime') {
+    $value = mt_rand(0, 100);
+    $requirements['activo_crear_status'] = [
+      'title' => t('activo_crear status'),
+      'value' => t('activo_crear value: @value', ['@value' => $value]),
+      'severity' => $value > 50 ? REQUIREMENT_INFO : REQUIREMENT_WARNING,
+    ];
+  }
+
+  return $requirements;
+}
